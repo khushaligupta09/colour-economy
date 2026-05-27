@@ -1,0 +1,26 @@
+year,colour,brand,ticker,sector,car,observations
+2020,Classic Blue,IBM,IBM,tech,-0.03881476072979495,127
+2020,Classic Blue,Meta,META,tech,0.15830094515378135,127
+2020,Classic Blue,Pepsi,PEP,fmcg,0.03969573535201054,127
+2020,Classic Blue,Ford,F,industrial,-0.3855416062040228,127
+2021,Ultimate Gray ,Apple,AAPL,tech,-0.06560788780275817,126
+2021,Ultimate Gray ,Mercedes-Benz,MBG.DE,industrial,0.2044573715239223,126
+2021, Illuminating,3M,MMM,fmcg,0.030670034014996572,126
+2021, Illuminating,Caterpillar,CAT,industrial,0.1836557379607061,126
+2021,Ultimate Gray + Illuminating,Best Buy,BBY,consumer,-0.02500926019189531,126
+2022,Very Peri,FedEx,FDX,logistics,0.07194063067268852,127
+2022,Very Peri,Mondelez,MDLZ,fmcg,0.15693277467160538,127
+2022,Very Peri,Zoom,ZM,tech,-0.475894993355679,127
+2022,Very Peri,Etsy,ETSY,consumer,-0.9332793863581272,127
+2023,Viva Magenta,T-Mobile,TMUS,telecom,-0.12685638092485862,127
+2023,Viva Magenta,Mastercard,MA,consumer,0.017053976542863114,127
+2023,Viva Magenta,Adobe,ADBE,tech,0.18047508062075657,127
+2023,Viva Magenta,Netflix,NFLX,tech,0.24228852057177508,127
+2024,Peach fuzz,Estee Lauder,EL,beauty,-0.10732083837882178,126
+2024,Peach fuzz,Tapestry,TPR,consumer,0.15596978489427782,126
+2024,Peach fuzz,Ulta Beauty,ULTA,retail,-0.24697068601765548,126
+2024,Peach fuzz,Church & Dwight,CHD,fmcg,-0.0632965117799501,126
+2025,Mocha Mousse,UPS,UPS,logistics,-0.27154966528688784,127
+2025,Mocha Mousse,Nestle,NSRGY,fmcg,0.2915345607766461,127
+2025,Mocha Mousse,Hershey,HSY,fmcg,-0.06374695040810607,126
+2025,Mocha Mousse,Tapestry,TPR,consumer,0.19862891166100394,125

@@ -1,0 +1,5 @@
+year,colour,brand,ticker,activation_date,car_90day,car_90day_pct,observations
+2023,Viva Magenta,Motorola Solutions,MSI,2022-12-01,-0.0065,-0.65,64
+2023,Viva Magenta,Levi Strauss,LEVI,2022-12-01,0.1304,13.04,64
+2025,Mocha Mousse,Motorola Solutions,MSI,2024-12-01,-0.0743,-7.43,63
+2020,Classic Blue,Ford,F,2019-12-01,-0.1847,-18.47,63

@@ -1,0 +1,30 @@
+year,colour_name,hex,announced_date,tier,brand,ticker,sector,colour_match
+2020,Classic Blue,#0F4C81,2019-12-01,permanent,IBM,IBM,tech,primary
+2020,Classic Blue,#0F4C81,2019-12-01,permanent,Meta,META,tech,primary
+2020,Classic Blue,#0F4C81,2019-12-01,permanent,Pepsi,PEP,fmcg,primary
+2020,Classic Blue,#0F4C81,2019-12-01,permanent,Ford,F,industrial,primary
+2021,Ultimate Gray ,#939597,2020-12-01,permanent,Apple,AAPL,tech,primary
+2021,Ultimate Gray ,#939598,2020-12-01,permanent,Mercedes-Benz,MBG.DE,industrial,primary
+2021, Illuminating,#F5DF4D,2020-12-01,permanent,3M,MMM,fmcg,primary
+2021, Illuminating,#F5DF4D,2020-12-01,permanent,Caterpillar,CAT,industrial,primary
+2021,Ultimate Gray + Illuminating,both,2020-12-01,permanent,Best Buy,BBY,consumer,both
+2022,Very Peri,#6667AB,2021-12-01,permanent,FedEx,FDX,logistics,primary
+2022,Very Peri,#6667AB,2021-12-01,permanent,Mondelez,MDLZ,fmcg,primary
+2022,Very Peri,#6667AB,2021-12-01,permanent,Zoom,ZM,tech,primary
+2022,Very Peri,#6667AB,2021-12-01,permanent,Etsy,ETSY,consumer,primary
+2023,Viva Magenta,#BB2649,2022-12-01,permanent,T-Mobile,TMUS,telecom,primary
+2023,Viva Magenta,#BB2649,2022-12-01,permanent,Mastercard,MA,consumer,primary
+2023,Viva Magenta,#BB2649,2022-12-01,permanent,Adobe,ADBE,tech,primary
+2023,Viva Magenta,#BB2649,2022-12-01,permanent,Netflix,NFLX,tech,primary
+2024,Peach fuzz,#FFBE98,2023-12-01,permanent,Estee Lauder,EL,beauty,primary
+2024,Peach fuzz,#FFBE98,2023-12-01,permanent,Tapestry,TPR,consumer,primary
+2024,Peach fuzz,#FFBE98,2023-12-01,permanent,Ulta Beauty,ULTA,retail,primary
+2024,Peach fuzz,#FFBE98,2023-12-01,permanent,Church & Dwight,CHD,fmcg,primary
+2025,Mocha Mousse,#A47864,2024-12-01,permanent,UPS,UPS,logistics,primary
+2025,Mocha Mousse,#A47864,2024-12-02,permanent,Nestle,NSRGY,fmcg,primary
+2025,Mocha Mousse,#A47864,2024-12-03,permanent,Hershey,HSY,fmcg,primary
+2025,Mocha Mousse,#A47864,2024-12-04,permanent,Tapestry,TPR,consumer,primary
+2023,Viva Magenta,#BB2649,2022-12-01,activation,Levi Strauss,LEVI,consumer,primary
+2023,Viva Magenta,#BB2649,2022-12-01,activation,Motorola Solutions,MSI,tech,primary
+2025,Mocha Mousse,#A47864,2024-12-01,activation,Motorola Solutions,MSI,tech,primary
+2020,Classic Blue,#0F4C81,2019-12-01,activation,Ford,F,industrial,primary
