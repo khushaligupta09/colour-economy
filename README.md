@@ -14,9 +14,7 @@ across a $380 billion global industry. This study applies rigorous financial
 event-study methodology to test whether publicly listed companies whose brand 
 identity is permanently anchored in that colour generate measurable abnormal 
 stock returns relative to the S&P 500.
-
-**Author:** Khushali Gupta  
-**Background:** Applied Economics (BSc) | Citibank, Product & Valuation Control (4 years)  
+ 
 **Time Period:** 2020–2025  
 **Sample:** 25 permanent colour-identity brands + 5 activation cases  
 **Sectors:** FMCG, Tech, Consumer, Industrial, Logistics, Beauty, Retail, Telecom
@@ -186,16 +184,6 @@ scipy         # Statistical testing
 
 ---
 
-## Future Research
-
-- Extend time series to 2000 for 25 Pantone announcements
-- Expand brand universe to 50+ companies per sector
-- Apply market model beta-adjustment for more rigorous CAR
-- Benchmark against luxury-specific index
-- Add NLP sentiment analysis on social media colour discourse
-- Build interactive Streamlit dashboard
-
----
 
 *This project was built independently as part of a personal research portfolio 
 combining financial methodology with cultural trend analysis.*
