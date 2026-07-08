@@ -5,6 +5,30 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
+## Key Insight
+
+Pantone's Colour of the Year is one of the most anticipated announcements 
+in the global design calendar — shaping product pipelines, retail buying 
+decisions and brand campaigns across a $380 billion industry. The implicit 
+assumption behind the billions spent activating around it is that colour 
+trend alignment creates commercial value. This study tests that assumption 
+in equity markets.
+
+The headline finding is a null result — and it is more revealing than a 
+positive one would have been. On aggregate, companies whose brand identity 
+permanently matches the Pantone colour show no statistically significant 
+outperformance relative to the S&P 500. Markets are indifferent to cultural 
+colour signals, even in the most unambiguous cases.
+
+But the sector decomposition tells a more interesting story. FMCG brands 
+outperform by +6.5% on average while consumer and retail brands underperform 
+by -11.7% and -24.7% respectively. The colour is not the driver — the 
+underlying business model is. Stable, defensive businesses benefit from 
+cultural colour tailwinds. Trend-sensitive consumer brands are overwhelmed 
+by macro noise regardless of how well their colour aligns with Pantone's 
+choice.
+
+Colour, it turns out, is a consumer signal. Not a financial one.
 
 ## Overview
 
@@ -14,7 +38,8 @@ across a $380 billion global industry. This study applies rigorous financial
 event-study methodology to test whether publicly listed companies whose brand 
 identity is permanently anchored in that colour generate measurable abnormal 
 stock returns relative to the S&P 500.
- 
+
+**Author:** Khushali Gupta  
 **Time Period:** 2020–2025  
 **Sample:** 25 permanent colour-identity brands + 5 activation cases  
 **Sectors:** FMCG, Tech, Consumer, Industrial, Logistics, Beauty, Retail, Telecom
@@ -110,7 +135,25 @@ to benefit from cultural colour tailwinds than trend-sensitive consumer brands.
 | Trends data | Google Trends via pytrends |
 
 ---
+## Brand Selection Methodology
 
+Brands were selected by screening publicly listed companies whose primary 
+brand colour, as documented in official brand guidelines and confirmed by 
+brand colour databases (BrandColors.net and Encycolorpedia), closely matches 
+the announced Pantone Colour of the Year. Selection required that the colour 
+be a permanent, documented element of the brand's visual identity — not a 
+seasonal campaign or product variant. Ambiguous cases where the colour match 
+was subjective or where the brand had multiple equally prominent colours were 
+noted explicitly.
+
+**Borderline case — Apple (AAPL):** Apple was included for Ultimate Gray 
+2021 on the basis of its Space Gray product line, which has been a primary 
+aesthetic across Mac, iPhone and Apple Watch since 2013. Apple's brand 
+identity intentionally avoids a single dominant colour, making this the most 
+borderline inclusion in the dataset. Results were tested with and without 
+Apple — exclusion does not materially change findings (Apple CAR: -6.6%).
+
+---
 ## Brand Universe
 
 ### Tier 1 — Permanent Colour Identity
@@ -157,6 +200,7 @@ to benefit from cultural colour tailwinds than trend-sensitive consumer brands.
 
 ## Limitations
 
+- Apple (AAPL) classified as Ultimate Gray 2021 based on Space Gray product line — most borderline brand inclusion;      exclusion does not materially change findings
 - Sample size (n=25) limits statistical power significantly
 - No control for macro confounders — COVID, interest rate cycles, sector headwinds
 - Google Trends is an imperfect and unofficial proxy for cultural momentum
@@ -165,7 +209,30 @@ to benefit from cultural colour tailwinds than trend-sensitive consumer brands.
 
 ---
 
-## Repository Structure
+### Synthesis
+
+These findings suggest that Pantone's Colour of the Year — despite its 
+outsized cultural influence — is not priced into equity markets. Even in 
+the most unambiguous cases, such as T-Mobile whose magenta is legally 
+trademarked, markets showed no measurable response to colour alignment. 
+
+This has two practical implications. For brand managers, colour trend 
+adoption should be evaluated as a consumer and creative decision, not a 
+financial one — there is no equity market reward for alignment. For 
+investors, colour identity is not a useful factor in stock selection within 
+the consumer and luxury space.
+
+The most durable finding is sectoral — FMCG brands with stable business 
+models appear better insulated from macro noise and show consistent 
+directional outperformance, suggesting that brand stability amplifies any 
+cultural tailwind while trend-sensitive businesses are overwhelmed by it.
+
+The more interesting question this study raises — which it points toward 
+but does not fully answer — is what explains the variance between winners 
+and losers within each colour year. Brand strength, sector positioning and 
+macro timing appear far more powerful than colour alignment alone. That is 
+a richer question for future research.
+
 
 
 
@@ -183,7 +250,6 @@ scipy         # Statistical testing
 ```
 
 ---
-
 
 *This project was built independently as part of a personal research portfolio 
 combining financial methodology with cultural trend analysis.*
