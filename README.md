@@ -41,7 +41,7 @@ stock returns relative to the S&P 500.
 
 **Author:** Khushali Gupta  
 **Time Period:** 2020–2025  
-**Sample:** 25 permanent colour-identity brands + 5 activation cases  
+**Sample:** 24 permanent colour-identity brands + 4 activation cases  
 **Sectors:** FMCG, Tech, Consumer, Industrial, Logistics, Beauty, Retail, Telecom
 
 ---
@@ -71,7 +71,7 @@ Measurement window: 3 months post-activation.
 ## Key Findings
 
 ### H1 — Colour Alignment Does Not Predict Outperformance
-Average CAR across all 25 brands: **-3.49%** (p=0.526, not significant).
+Average CAR across all 24 brands: **-3.49%** (p=0.526, not significant).
 Markets are indifferent to cultural colour signals — even in unambiguous 
 cases like T-Mobile, whose magenta is legally trademarked, underperforming 
 by 12.7% after Viva Magenta 2023.
@@ -86,7 +86,7 @@ Levi Strauss: **+13.04%** following Viva Magenta campaign.
 Motorola Solutions: consistently flat or negative across three colour years.
 Insufficient sample size (n=4) for statistical conclusion.
 
-### Sector Finding — The Most Interesting Result
+### Sector Finding — Directional and Exploratory
 | Sector | Average CAR | Sample |
 |--------|-------------|--------|
 | FMCG | +6.5% | n=6 |
@@ -98,9 +98,39 @@ Insufficient sample size (n=4) for statistical conclusion.
 | Telecom | -12.7% | n=1 |
 | Retail | -24.7% | n=1 |
 
-Sector mediates the colour effect more powerfully than the colour itself.
-FMCG brands with stable, defensive business models appear better positioned 
-to benefit from cultural colour tailwinds than trend-sensitive consumer brands.
+Sector-level patterns are directional only given cell sizes as small as n=1 
+for Retail, Beauty and Telecom — these should be read as individual company 
+results rather than sector conclusions. The FMCG (n=6) vs Consumer (n=5) 
+contrast is the most meaningful comparison given sample depth, and is 
+suggestive of a sector moderation effect worth testing with a larger dataset.
+---
+
+### Synthesis
+
+These findings suggest that Pantone's Colour of the Year — despite its 
+outsized cultural influence — is not priced into equity markets. Even in 
+the most unambiguous cases, such as T-Mobile whose magenta is legally 
+trademarked, markets showed no measurable response to colour alignment. 
+
+This has two practical implications. For brand managers, colour trend 
+adoption should be evaluated as a consumer and creative decision, not a 
+financial one — there is no equity market reward for alignment. For 
+investors, colour identity is not a useful factor in stock selection within 
+the consumer and luxury space.
+
+The most durable finding is sectoral — FMCG brands with stable business 
+models appear better insulated from macro noise and show consistent 
+directional outperformance, suggesting that brand stability amplifies any 
+cultural tailwind while trend-sensitive businesses are overwhelmed by it.
+
+The more interesting question this study raises — which it points toward 
+but does not fully answer — is what explains the variance between winners 
+and losers within each colour year. Brand strength, sector positioning and 
+macro timing appear far more powerful than colour alignment alone. That is 
+a richer question for future research.
+
+
+
 
 ---
 
@@ -146,12 +176,16 @@ seasonal campaign or product variant. Ambiguous cases where the colour match
 was subjective or where the brand had multiple equally prominent colours were 
 noted explicitly.
 
-**Borderline case — Apple (AAPL):** Apple was included for Ultimate Gray 
-2021 on the basis of its Space Gray product line, which has been a primary 
-aesthetic across Mac, iPhone and Apple Watch since 2013. Apple's brand 
-identity intentionally avoids a single dominant colour, making this the most 
-borderline inclusion in the dataset. Results were tested with and without 
-Apple — exclusion does not materially change findings (Apple CAR: -6.6%).
+The screening universe comprised the S&P 500, selected international 
+large-cap indices (DAX, SMI, Euronext) and well-known consumer brand 
+companies outside these indices where brand colour identity was unambiguous 
+and globally recognised.
+
+**Colour match notes — Viva Magenta 2023:** Netflix and Mastercard were 
+included based on their deep red-magenta brand identities. Netflix brand 
+red (#E50914) and Mastercard red (#EB001B) have measurable hue proximity 
+to Viva Magenta (#BB2649). Exclusion of either does not materially change 
+the 2023 average CAR directional finding.
 
 ---
 ## Brand Universe
@@ -164,7 +198,6 @@ Apple — exclusion does not materially change findings (Apple CAR: -6.6%).
 | 2020 | Classic Blue | Meta | META | Tech |
 | 2020 | Classic Blue | Pepsi | PEP | FMCG |
 | 2020 | Classic Blue | Ford | F | Industrial |
-| 2021 | Ultimate Gray | Apple | AAPL | Tech |
 | 2021 | Ultimate Gray | Mercedes-Benz | MBG.DE | Industrial |
 | 2021 | Illuminating | 3M | MMM | FMCG |
 | 2021 | Illuminating | Caterpillar | CAT | Industrial |
@@ -191,7 +224,6 @@ Apple — exclusion does not materially change findings (Apple CAR: -6.6%).
 | Year | Colour | Brand | Ticker | Activation |
 |------|--------|-------|--------|------------|
 | 2020 | Classic Blue | Ford | F | Mach-E GT launch |
-| 2023 | Viva Magenta | Motorola Solutions | MSI | Edge 30 Fusion |
 | 2023 | Viva Magenta | Levi Strauss | LEVI | Magenta denim collection |
 | 2024 | Peach Fuzz | Motorola Solutions | MSI | Peach Fuzz device |
 | 2025 | Mocha Mousse | Motorola Solutions | MSI | Mocha Mousse device |
@@ -200,8 +232,8 @@ Apple — exclusion does not materially change findings (Apple CAR: -6.6%).
 
 ## Limitations
 
-- Apple (AAPL) classified as Ultimate Gray 2021 based on Space Gray product line — most borderline brand inclusion;      exclusion does not materially change findings
-- Sample size (n=25) limits statistical power significantly
+- Apple (AAPL) was considered for Ultimate Gray 2021 via its Space Gray product line but excluded as this constitutes a product finish rather than a permanent brand identity colour. Inclusion does not materially change results (Apple CAR: -6.6%, close to sample mean).
+- Sample size (n=24 Tier 1, n=4 Tier 2) limits statistical power significantly
 - No control for macro confounders — COVID, interest rate cycles, sector headwinds
 - Google Trends is an imperfect and unofficial proxy for cultural momentum
 - Activation tier too small for statistical inference (n=4)
@@ -209,34 +241,7 @@ Apple — exclusion does not materially change findings (Apple CAR: -6.6%).
 
 ---
 
-### Synthesis
 
-These findings suggest that Pantone's Colour of the Year — despite its 
-outsized cultural influence — is not priced into equity markets. Even in 
-the most unambiguous cases, such as T-Mobile whose magenta is legally 
-trademarked, markets showed no measurable response to colour alignment. 
-
-This has two practical implications. For brand managers, colour trend 
-adoption should be evaluated as a consumer and creative decision, not a 
-financial one — there is no equity market reward for alignment. For 
-investors, colour identity is not a useful factor in stock selection within 
-the consumer and luxury space.
-
-The most durable finding is sectoral — FMCG brands with stable business 
-models appear better insulated from macro noise and show consistent 
-directional outperformance, suggesting that brand stability amplifies any 
-cultural tailwind while trend-sensitive businesses are overwhelmed by it.
-
-The more interesting question this study raises — which it points toward 
-but does not fully answer — is what explains the variance between winners 
-and losers within each colour year. Brand strength, sector positioning and 
-macro timing appear far more powerful than colour alignment alone. That is 
-a richer question for future research.
-
-
-
-
----
 
 ## Tools & Libraries
 
