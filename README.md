@@ -77,21 +77,20 @@ cases like T-Mobile, whose magenta is legally trademarked, underperforming
 by 12.7% after Viva Magenta 2023.
 
 ### H2 — Cultural Momentum Does Not Predict Returns
-Google Trends correlation with CAR: **r=0.143** (p=0.786, not significant).
-Public enthusiasm for a colour operates independently of its financial 
-consequences for colour-aligned brands.
+Google Trends correlation with CAR: **r=0.175** (p=0.740, not significant).
 
 ### H3 — Activation Results Are Mixed
 Levi Strauss: **+13.04%** following Viva Magenta campaign.
-Motorola Solutions: flat or negative across two colour years (2023: -0.65%, 2025: -7.43%).
-Insufficient sample size (n=4) for statistical conclusion.
+3 of 4 activations were negative — Ford 2020 (-18.47%), Motorola 2023 
+(-0.65%), Motorola 2025 (-7.43%). Only Levi Strauss showed meaningful 
+outperformance (+13.04%). Insufficient sample size for statistical conclusion.
 
 ### Sector Finding — Directional and Exploratory
 | Sector | Average CAR | Sample |
 |--------|-------------|--------|
 | FMCG | +6.5% | n=6 |
+| Tech | +1.3% | n=5 |
 | Industrial | +0.1% | n=3 |
-| Tech | 0.0% | n=5 |
 | Logistics | -10.0% | n=2 |
 | Beauty | -10.7% | n=1 |
 | Consumer | -11.7% | n=5 |
@@ -228,7 +227,7 @@ two independent observations — one for each Pantone colour year.*
 |------|--------|-------|--------|------------|
 | 2020 | Classic Blue | Ford | F | Mach-E GT launch |
 | 2023 | Viva Magenta | Levi Strauss | LEVI | Magenta denim collection |
-| 2024 | Peach Fuzz | Motorola Solutions | MSI | Peach Fuzz device |
+| 2023 | Viva Magenta | Motorola Solutions | MSI | Edge 30 Fusion |
 | 2025 | Mocha Mousse | Motorola Solutions | MSI | Mocha Mousse device |
 
 ---
